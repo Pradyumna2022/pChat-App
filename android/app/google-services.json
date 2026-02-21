@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508461118960",
+    "project_id": "mytest-713ed",
+    "storage_bucket": "mytest-713ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508461118960:android:800a05642885117f38d935",
+        "android_client_info": {
+          "package_name": "com.Pchat.pchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDELfWQIo42uwEosIWbAhx2Qhp5scd-1wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
