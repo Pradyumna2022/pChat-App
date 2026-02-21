@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:math';
 
 import 'package:firebase_auth/firebase_auth.dart';
@@ -32,5 +33,9 @@ class AuthServices {
     } on FirebaseAuthException catch (e) {
       throw Exception("Register auth services error : ${e.code}");
     }
+  }
+  Future<void> signOut()async{
+   return await _auth.signOut();
+
   }
 }
