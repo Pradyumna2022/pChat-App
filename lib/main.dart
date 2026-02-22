@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:pchat/firebase_options.dart';
 import 'package:pchat/pages/auth_gate.dart';
-import 'package:pchat/pages/login_or_register.dart';
 import 'package:pchat/theme/light_mode.dart';
 
 void main() async {
