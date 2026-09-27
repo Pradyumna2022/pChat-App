@@ -1,31 +1,47 @@
 # pChat-App 💬
 
-A real-time chat application built with **Flutter and Firebase**, focused on providing a clean and user-friendly messaging experience.
+A real-time chat application built with **Flutter and Firebase**, featuring user authentication, Firestore-based messaging, and a clean mobile chat interface.
 
 ## 📱 About
 
-pChat-App is a Flutter-based mobile chat application that demonstrates Firebase-powered chat functionality with a modern mobile UI.
+pChat-App is a Flutter-based mobile chat application that demonstrates real-time communication using **Firebase Authentication** and **Cloud Firestore**.
 
-The project focuses on building a complete chat experience using Flutter and Firebase services.
+The project includes user authentication, user listing, chat rooms, message sending, and real-time message updates.
 
 ## ✨ Features
 
-* 💬 Real-time chat functionality
-* 🔥 Firebase integration
-* 👤 User authentication
-* 📱 Flutter-based mobile UI
+* 🔐 User registration and login
+* 💬 One-to-one real-time messaging
+* 🔥 Firebase Authentication
+* ☁️ Cloud Firestore
+* 👥 User listing
+* 🏠 Home screen
 * ⚡ Real-time message updates
-* 🎨 Clean and user-friendly interface
-* 🤖 Android support
-* 🍎 iOS-ready Flutter project
+* 🗨️ Chat room management
+* ⚙️ Settings screen
+* 📱 Flutter-based mobile UI
 
 ## 🛠️ Tech Stack
 
 * **Flutter**
 * **Dart**
-* **Firebase**
 * **Firebase Authentication**
 * **Cloud Firestore**
+* **Git & GitHub**
+
+## 🏗️ Project Structure
+
+```text
+lib/
+├── components/
+├── model/
+├── pages/
+├── services/
+│   └── chat/
+├── theme/
+├── firebase_options.dart
+└── main.dart
+```
 
 ## 🚀 Getting Started
 
@@ -34,21 +50,20 @@ The project focuses on building a complete chat experience using Flutter and Fir
 * Flutter SDK
 * Dart SDK
 * Android Studio or VS Code
-* Firebase project
+* A Firebase project
 
 ### Installation
 
 ```bash
 git clone https://github.com/Pradyumna2022/pChat-App.git
-
 cd pChat-App
-
 flutter pub get
-
 flutter run
 ```
 
 ## 🔥 Firebase Configuration
+
+This project uses Firebase Authentication and Cloud Firestore.
 
 To run the application with your own Firebase project, configure Firebase for the required platforms and add the appropriate Firebase configuration files.
 
